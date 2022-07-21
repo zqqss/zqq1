@@ -1,14 +1,34 @@
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int main()
 {
-	int i = 1;
-	while (i <= 100)
+	int num = 0;
+	scanf("%d", &num);
+	switch (num)
 	{
-		if(i%2==1)
+	case 1:
+			printf("111\n");
+			break;
+	case 2:
+			printf("222\n");
+			break;
+	case 3:
+			printf("333\n");
+			break;
+	case 4:
+			printf("444\n");
+			break;
+	case 5:
+			printf("555\n");
+			break;
+	case 6:
+			printf("666\n");
+			break;
+	case 7:
+			printf("777\n");
+			break;
 
-		 printf("%d\n", i);
-		i++;
-
-	}
+     }
 	return 0;
+
 }
